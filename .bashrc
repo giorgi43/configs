@@ -117,3 +117,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# disable ctrl-s locking terminal
+stty -ixon
+
