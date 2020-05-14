@@ -6,11 +6,9 @@ set autoindent "enable auto indenting
 set mouse=a	"enable mouse support. :pain:
 set splitright "vsplit to right
 set hlsearch "enable search highlighting
-set incsearch "enable incremental search that shows partial matches
 set smartcase "automatically switch search to case-sensitive when search query contains an uppercase letter
 set wildmenu "visual autocomplete for command menu
 set incsearch "search as characters are entered
-set hlsearch "highlight searc matches
 
 "use \+SPACE to clear search highlighting (leader is \ key by default)
 nnoremap <leader><space> :nohlsearch<CR> 
