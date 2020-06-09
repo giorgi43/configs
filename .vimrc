@@ -27,5 +27,6 @@ let g:netrw_browse_split = 3
 "use 25% of screen for netrw directory browser
 let g:netrw_winsize = 25
 
-
-
+"load gdb plugin for debugging. built in since version 8.1
+packadd termdebug
+let g:termdebug_wide=1 "for splitting vertiacally
