@@ -18,4 +18,4 @@ bindkey '^[[1;5D' backward-word               #
 bindkey '^[[1;5C' forward-word                #
 bindkey '^H' backward-kill-word               # delete previous word with ctrl+backspace
 
-PROMPT='%F{green}%n%f@%F{magenta}%m%f %F{blue}%B%~%b%f %# '
+PROMPT='%F{green}%n%f@%F{magenta}%m%f %F{blue}%(5~|%-1~/…/%2~|%4~)%f %# ' # custom prompt
