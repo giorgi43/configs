@@ -19,3 +19,10 @@ bindkey '^[[1;5C' forward-word                #
 bindkey '^H' backward-kill-word               # delete previous word with ctrl+backspace
 
 PROMPT='%F{green}%n%f@%F{magenta}%m%f %F{blue}%(5~|%-1~/…/%2~|%4~)%f %# ' # custom prompt
+
+# launch tmux on startup
+if [ -n "$DISPLAY" ] && [ -z "$TMUX" ]; then
+	tmux attach -t main > /dev/null 2>&1 || tmux new -s main > /dev/null
+	wait
+	exit
+fi
