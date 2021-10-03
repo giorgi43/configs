@@ -1,6 +1,11 @@
 set number "show line numbers
 syntax on "enable syntax highlighting
-colorscheme ron "set ron color scheme
+
+"colorscheme
+set t_Co=256
+colorscheme jellybeans
+set background=dark
+
 set tabstop=4 "tab = 4 spaces
 set autoindent "enable auto indenting
 set mouse=a	"enable mouse support. :pain:
