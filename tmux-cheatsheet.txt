@@ -1,0 +1,25 @@
+# "cheatsheet" for tmux, some maybe are/will be specific to my .tmux.conf
+
+prefix: Alt + e
+
+# split vertically
+prefix + %
+
+# split horizontally
+prefix + "
+
+# create window
+prefix + c
+
+# move around windows
+prefix + n		# next
+prefix + p		# previous
+
+# zoom (make full screen) currently selected pane
+prefix + z		# do same to zoom out
+
+# copy and paste
+shift + select text
+middle mouse button to paste
+
+
